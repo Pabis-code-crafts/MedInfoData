@@ -1,5 +1,7 @@
 # MedInfoData
 
+docker build -t med-data-postgres-image .
+
 Data model:
 
 Each doctor has a unique DoctorID, along with attributes such as name, specialization, phone, and email.
